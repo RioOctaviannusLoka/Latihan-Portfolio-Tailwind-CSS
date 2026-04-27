@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: var(--color-blue-600);
+    --color-dark: #0f172a;
+
+    --breakpoint-2xl: 1320px;
+
+    --container-padding: 16px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
